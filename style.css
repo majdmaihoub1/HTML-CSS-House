@@ -31,9 +31,10 @@ body{
   flex-direction: row;
   flex-flow: row wrap;
   margin-top: 0px;
-
-
+  margin-left: 14px;
 }
+
+
 
 .door{
   display: flex;
@@ -42,7 +43,7 @@ body{
 #circle {
   position: absolute;
   top: 85%;
-  left: 34%;
+  left: 40%;
   width: 8px;
   height: 8px;
   background: #001525;
@@ -55,7 +56,16 @@ body{
   width: 50px;
   height: 70px;
   background: #e36414;
-  margin-left: 71px;
+  margin-left: 74px;
+}
+
+#smoker {
+  width: 34px;
+  position: absolute;
+  height: 70px;
+  background: #ff9100;
+  top: 8%;
+  left: 14%;
 }
 
 .flex-container {
@@ -79,11 +89,6 @@ body{
   height: 10px;
   margin: 5px;
   
-  line-height: 50px;
-  color: white;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
 
 }
 .column { 
