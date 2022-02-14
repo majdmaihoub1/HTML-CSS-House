@@ -2,7 +2,13 @@ body{
   background-color: #001525;
 }
 .container{
-  width: 18%;
+  width: 17%;
+  position: absolute;
+  top: 29%;
+  left: 43%;
+  margin-top: -50px;
+  margin-left: -50px;
+  
 }
 
 .row            { 
@@ -19,11 +25,12 @@ body{
 #mainbox {
   width: auto;
   height: auto;
-  background-color: red;
+  background-color: #ff9100;
   margin:5px;
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
+  margin-top: 0px;
 
 
 }
@@ -34,7 +41,8 @@ body{
 
 #circle {
   position: absolute;
-  top: 45%;
+  top: 85%;
+  left: 34%;
   width: 8px;
   height: 8px;
   background: #001525;
@@ -46,7 +54,8 @@ body{
 #square {
   width: 50px;
   height: 70px;
-  background: rgb(184, 174, 174);
+  background: #e36414;
+  margin-left: 71px;
 }
 
 .flex-container {
@@ -100,13 +109,13 @@ body{
 #top-right{
   width: 0;
   height: 0;
-  border-bottom: 130px solid red;
-  border-right: 140px solid transparent;
+  border-bottom: 125px solid #ff9100;
+  border-right: 120px solid transparent;
 }
 
 #top-left{
   width: 0;
   height: 0;
-  border-bottom: 130px solid red;
-  border-left: 140px solid transparent;
+  border-bottom: 125px solid #ff9100;
+  border-left: 120px solid transparent;
 }
