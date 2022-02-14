@@ -1,17 +1,59 @@
 body{
   background-color: #001525;
 }
+.container{
+  width: 18%;
+}
+
+.row            { 
+  -webkit-flex-direction: row; 
+  flex-direction: row;
+}
+
+.row-door           { 
+  -webkit-flex-direction: row; 
+  flex-direction: row;
+  justify-content: center;
+}
 
 #mainbox {
-  width: 200px;
-  height: 100px;
-  background: red;
+  width: auto;
+  height: auto;
+  background-color: red;
+  margin:5px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+
+
+}
+
+.door{
   display: flex;
 }
+
+#circle {
+  position: absolute;
+  top: 45%;
+  width: 8px;
+  height: 8px;
+  background: #001525;
+  border-radius: 50%
+}
+
+
+
+#square {
+  width: 50px;
+  height: 70px;
+  background: rgb(184, 174, 174);
+}
+
 .flex-container {
   padding: 0;
   margin: 0;
   list-style: none;
+  
   
   -ms-box-orient: horizontal;
   display: -webkit-box;
@@ -22,7 +64,7 @@ body{
   display: flex;
 }
 .flex-item {
-  background: tomato;
+  background: #001525;
   padding: 5px;
   width: 10px;
   height: 10px;
@@ -33,12 +75,14 @@ body{
   font-weight: bold;
   font-size: 2em;
   text-align: center;
+
 }
 .column { 
   -webkit-flex-direction: column; 
   flex-direction: column; 
   float: left;
   grid-row: end;
+  margin: 20px;
 }
 
   .box {
@@ -56,13 +100,13 @@ body{
 #top-right{
   width: 0;
   height: 0;
-  border-bottom: 100px solid red;
-  border-right: 100px solid transparent;
+  border-bottom: 130px solid red;
+  border-right: 140px solid transparent;
 }
 
 #top-left{
   width: 0;
   height: 0;
-  border-bottom: 100px solid red;
-  border-left: 100px solid transparent;
+  border-bottom: 130px solid red;
+  border-left: 140px solid transparent;
 }
